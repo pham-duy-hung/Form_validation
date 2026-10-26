@@ -1,3 +1,94 @@
 <resources>
     <string name="app_name">Form_validation</string>
+
+    <!-- Register screen -->
+    <string name="register_title">Tạo tài khoản</string>
+    <string name="register_subtitle">Điền thông tin bên dưới để bắt đầu</string>
+    <string name="form_progress_label">Mức độ hoàn thành</string>
+    <string name="form_progress_value">%1$d/%2$d</string>
+
+    <string name="hint_full_name">Họ và tên</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Số điện thoại</string>
+    <string name="hint_birth_date">Ngày sinh</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="hint_confirm_password">Nhập lại mật khẩu</string>
+
+    <string name="helper_full_name">Chỉ gồm chữ cái và khoảng trắng</string>
+    <string name="helper_phone">10 chữ số, bắt đầu bằng 03, 05, 07, 08 hoặc 09</string>
+    <string name="helper_birth_date">Bạn phải đủ 13 tuổi trở lên</string>
+    <string name="helper_password">Tối thiểu 8 ký tự, gồm chữ hoa, chữ thường, số và ký tự đặc biệt</string>
+
+    <string name="label_gender">Giới tính</string>
+    <string name="gender_male">Nam</string>
+    <string name="gender_female">Nữ</string>
+    <string name="gender_other">Khác</string>
+
+    <string name="password_strength_label">Độ mạnh: %1$s</string>
+    <string name="password_strength_none">—</string>
+    <string name="password_strength_weak">Yếu</string>
+    <string name="password_strength_fair">Trung bình</string>
+    <string name="password_strength_good">Khá</string>
+    <string name="password_strength_strong">Mạnh</string>
+
+    <string name="terms_agree">Tôi đồng ý với Điều khoản sử dụng và Chính sách bảo mật</string>
+
+    <string name="btn_register">Đăng ký</string>
+    <string name="btn_cancel">Huỷ</string>
+    <string name="date_picker_title">Chọn ngày sinh</string>
+
+    <string name="cd_valid">Hợp lệ</string>
+    <string name="cd_logo">Biểu tượng đăng ký</string>
+
+    <!-- Validation errors -->
+    <string name="error_full_name_required">Vui lòng nhập họ và tên</string>
+    <string name="error_full_name_length">Họ tên phải từ 2 đến 50 ký tự</string>
+    <string name="error_full_name_invalid">Họ tên chỉ được chứa chữ cái và khoảng trắng</string>
+    <string name="error_full_name_words">Vui lòng nhập đầy đủ họ và tên</string>
+
+    <string name="error_email_required">Vui lòng nhập email</string>
+    <string name="error_email_invalid">Email không đúng định dạng (vd: ten@gmail.com)</string>
+
+    <string name="error_phone_required">Vui lòng nhập số điện thoại</string>
+    <string name="error_phone_invalid">Số điện thoại phải gồm 10 số và bắt đầu bằng 03, 05, 07, 08, 09</string>
+
+    <string name="error_birth_date_required">Vui lòng chọn ngày sinh</string>
+    <string name="error_birth_date_future">Ngày sinh không được ở tương lai</string>
+    <string name="error_birth_date_too_young">Bạn phải đủ 13 tuổi để đăng ký</string>
+    <string name="error_birth_date_too_old">Ngày sinh không hợp lệ</string>
+
+    <string name="error_gender_required">Vui lòng chọn giới tính</string>
+
+    <string name="error_password_required">Vui lòng nhập mật khẩu</string>
+    <string name="error_password_length">Mật khẩu phải có ít nhất 8 ký tự</string>
+    <string name="error_password_upper">Mật khẩu phải có ít nhất 1 chữ in hoa</string>
+    <string name="error_password_lower">Mật khẩu phải có ít nhất 1 chữ thường</string>
+    <string name="error_password_digit">Mật khẩu phải có ít nhất 1 chữ số</string>
+    <string name="error_password_special">Mật khẩu phải có ít nhất 1 ký tự đặc biệt</string>
+    <string name="error_password_space">Mật khẩu không được chứa khoảng trắng</string>
+
+    <string name="error_confirm_password_required">Vui lòng nhập lại mật khẩu</string>
+    <string name="error_confirm_password_mismatch">Mật khẩu nhập lại không khớp</string>
+
+    <string name="error_terms_required">Bạn cần đồng ý với điều khoản để tiếp tục</string>
+
+    <plurals name="snackbar_register_failed">
+        <item quantity="one">Đăng ký thất bại: còn %d trường chưa hợp lệ</item>
+        <item quantity="other">Đăng ký thất bại: còn %d trường chưa hợp lệ</item>
+    </plurals>
+    <string name="snackbar_action_fix">Sửa ngay</string>
+    <string name="snackbar_form_cleared">Đã xoá trắng biểu mẫu</string>
+
+    <!-- Home screen -->
+    <string name="home_welcome">Chào mừng bạn!</string>
+    <string name="home_register_success">Đăng ký tài khoản thành công</string>
+    <string name="home_section_info">Thông tin cá nhân</string>
+    <string name="home_label_full_name">Họ và tên</string>
+    <string name="home_label_email">Email</string>
+    <string name="home_label_phone">Số điện thoại</string>
+    <string name="home_label_birth_date">Ngày sinh</string>
+    <string name="home_label_gender">Giới tính</string>
+    <string name="home_label_password">Mật khẩu</string>
+    <string name="home_birth_date_value">%1$s (%2$d tuổi)</string>
+    <string name="btn_logout">Đăng xuất</string>
 </resources>
